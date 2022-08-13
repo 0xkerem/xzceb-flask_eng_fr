@@ -1,6 +1,6 @@
 from asyncio.windows_events import NULL
 import unittest
-from translator import english_to_french, french_to_english
+from machinetranslation.translator4 import french_to_english, english_to_french
 
 class E2FTest(unittest.TestCase):
     def test_english_to_french(self):
